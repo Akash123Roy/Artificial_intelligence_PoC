@@ -11,7 +11,7 @@ import re
 
 # https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyBjKe4Wk6CUtT0oSG1pUaq4Sn0ER90JpGY
 # Configure Generative AI with API Key
-genai.configure(api_key="AIzaSyBjKe4Wk6CUtT0oSG1pUaq4Sn0ER90JpGY")
+genai.configure(api_key="")
 model = genai.GenerativeModel(model_name="gemini-1.5-flash")
 
 
