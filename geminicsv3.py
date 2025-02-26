@@ -2,7 +2,7 @@ import pandas as pd
 import google.generativeai as genai
 
 # Configure the API key
-genai.configure(api_key="AIzaSyBjKe4Wk6CUtT0oSG1pUaq4Sn0ER90JpGY")
+genai.configure(api_key="")
 model = genai.GenerativeModel(model_name="gemini-1.5-flash")
 
 # Load the Excel file
